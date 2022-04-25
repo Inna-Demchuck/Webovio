@@ -1,0 +1,29 @@
+// section-logotypes
+.logotypes {
+    position: absolute;
+    left: 165px;
+    margin-top: -103px;
+    background-color: $main-color;
+    width: 1276px;
+    height: 227px;
+}
+
+.logotypes-container {
+    right: 0;
+    padding: 60px 166px 54px 65px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 2px;
+}
+
+.logotypes-list {
+    display: flex;
+}
+
+.logotypes-item:not(:last-child) {
+    margin-right: 66px;
+}
+
+.logotypes-img {
+    width: 156px;
+    height: 113px;
+}

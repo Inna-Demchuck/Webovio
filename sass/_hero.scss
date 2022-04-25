@@ -1,0 +1,34 @@
+.hero {
+    background-image: url(../image/fon/Slider.jpg);
+    background-size: cover;
+    width: 100%;
+    max-width: 1441px;
+    height: 811px;
+}
+
+.hero-container {
+    padding-left: 144px;
+    padding-top: 199px;
+}
+
+.hero-subtitle {
+    color: $main-color;
+    margin-bottom: 22px;
+}
+
+.hero-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.23;
+    color: $main-color;
+    margin-bottom: 24px;
+    max-width: 616px;
+}
+
+.hero-description {
+    color: $main-color;
+    margin-bottom: 45px;
+    max-width: 581px;
+}
