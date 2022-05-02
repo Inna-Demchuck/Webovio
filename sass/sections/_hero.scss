@@ -12,13 +12,13 @@
 }
 
 .hero-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
     color: $main-color;
     margin-bottom: 22px;
 }
 
 .hero-title {
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 1.23;
@@ -28,6 +28,8 @@
 }
 
 .hero-description {
+    font-size: 16px;
+    line-height: 1.63;
     color: $main-color;
     margin-bottom: 45px;
     max-width: 581px;
