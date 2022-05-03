@@ -2,3 +2,18 @@
     background-color: transparent;
     border: none;
 }
+
+.button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.icon {
+    fill: rgba(212, 214, 212, 1);
+}
+
+.icon:hover,
+.icon:focus {
+    fill: rgba(255, 215, 35, 1);
+}

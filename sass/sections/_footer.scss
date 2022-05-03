@@ -1,0 +1,68 @@
+.footer-container {
+    position: relative;
+    padding: 310px 165px 30px;
+    // width: 1440px;
+    // height: 920px;
+}
+
+// join
+.footer-join {
+    position: absolute;
+    width: 1275px;
+    height: 362px;
+    left: 0;
+    top: -182px;
+    background: #FAFAFA;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+    z-index: 1;
+}
+
+.footer-join__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.23;
+    // line-height: 74px;
+    color: #4D533C;
+    padding: 70px 289px 50px 164px;
+}
+
+.footer-join__button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-left: 164px;
+    margin-bottom: 71px;
+}
+
+// footer
+.footer {
+    background-image: url(../../image/Bg.png), url(../../image/Object.jpg);
+    background-size: cover;
+}
+
+.addrest-list {
+    display: flex;
+    margin-bottom: 52px;
+}
+
+.addres-item:not(:last-child) {
+    margin-right: 128px;
+}
+
+.addres-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    // line-height: 40px;
+    color: #B6C197;
+}
+
+.addres-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2.5;
+    // line-height: 40px;
+    color: #FFFFFF;
+}
