@@ -46,7 +46,7 @@
 }
 
 .addres-item:not(:last-child) {
-    margin-right: 128px;
+    margin-right: 85px;
 }
 
 .addres-name {
@@ -65,4 +65,130 @@
     line-height: 2.5;
     // line-height: 40px;
     color: #FFFFFF;
+}
+
+// lists
+.footer-lists__container {
+    display: flex;
+    margin-bottom: 24px;
+    border-top: 1px solid #5D6544;
+    padding-top: 60px;
+    border-bottom: 1px solid #5D6544;
+    padding-bottom: 60px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.38;
+    // line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+.footer-list__item:nth-child(1) {
+    margin-right: 70px;
+}
+
+.footer-list__item:nth-child(2) {
+    margin-right: 100px;
+}
+
+.footer-inner__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    // line-height: 40px;
+    color: #B6C197;
+}
+
+// nav
+.footer-nav {
+    margin-left: auto;
+    border-left: 1px solid #5D6544;
+    padding-left: 120px;
+}
+
+.footer-nav__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.38;
+    // line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.footer-nav__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    // line-height: 26px;
+    color: #B6C197;
+    margin-bottom: 23px;
+}
+
+.footer-nav__email {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.58;
+    // line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+// social-link
+.social-link__list {
+    display: flex;
+}
+
+.social-link__item:not(:last-child) {
+    margin-right: 11px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    background-color: #444A34;
+    border-radius: 50%;
+}
+
+.social-link__icon {
+    fill: #979797;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: rgba(255, 215, 35, 1);
+    fill: #979797;
+}
+
+.social-link__icon:hover,
+.social-link__icon:focus {
+    fill: #979797;
+}
+
+// footer-logo
+.copyright-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    // line-height: 21px;
+    color: #B5C096;
+    margin-left: auto;
 }
